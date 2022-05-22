@@ -48,6 +48,5 @@ A = [C1 res5;(zeros(9,18)) C2;C3 (zeros(9,18))];
 x=A\b
 C4=C2*inv(res5)*C1;
 A2 = [C4;C3];
-Memorandum #2 BIOE 310-Biological systems Analysis
 b2 = [0;0;0;0;0;0;0;0;0;100;50;50;100;50;50;100;50;50];
 x2 = A2\b2
